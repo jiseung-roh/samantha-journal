@@ -1,0 +1,155 @@
+/* STYLE DESIGN */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+}
+
+/* index.html */
+
+.brand {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.brand {
+	height: 100vh;
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	background-color: rgb(255,255,255);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 33%;
+	width: 100%; 
+	text-align: center; 
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 3rem;
+	color: #111;
+	display: block; 
+	transition: ease 0.2s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #e1e1e1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 5%;
+    font-size: 3.75rem !important;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 599px) {
+	body {
+		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background-size: cover;
+	}
+	.brand {
+		visibility: hidden;
+	}
+	.hidden-menu {
+		position: fixed;
+		top: 2rem;
+		left: 5%;
+		color: #222;
+		font-size: 1.7rem;
+    	font-weight: bold;
+    	z-index: 10000;
+	}
+	.menu-button {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 769px) {
+	body {
+		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background-size: cover;
+	}
+	.brand {
+		font-size: 5rem;
+	}
+	.hidden-menu {
+		display: none;
+	}
+	.menu-button {
+		position: fixed;
+		top: 50%
+	}
+	.menu-button.left {
+		left: 3%
+	}
+	.menu-button.right {
+		right: 3%;
+	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 1023px) {
+	body {
+		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background-size: cover;
+	}
+	.brand {
+		font-size: 9rem;
+	}
+	.hidden-menu {
+		display: none;
+	}
+	.menu-button {
+		position: fixed;
+		top: 50%
+	}
+	.menu-button.left {
+		left: 3%
+	}
+	.menu-button.right {
+		right: 3%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background-size: cover;
+	}
+	.brand {
+		font-size: 10rem;
+	}
+	.hidden-menu {
+		display: none;
+	}
+	.menu-button {
+		position: fixed;
+		top: 50%
+	}
+	.menu-button.left {
+		left: 3%
+	}
+	.menu-button.right {
+		right: 3%;
+	}
+}

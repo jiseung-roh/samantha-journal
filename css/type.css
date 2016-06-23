@@ -1,0 +1,19 @@
+/* 
+ * TYPE DESIGN
+ * (EN) font-family: "sofia-pro", sans-serif;
+ * (KO) font-family: "Spoqa Han Sans", sans-serif;
+*/
+html {
+	font-family: "Spoqa Han Sans", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+h1[lang="en"], h2[lang="en"], a[lang="en"], p[lang="en"] {
+	font-family: "sofia-pro", sans-serif;
+	letter-spacing: 0.02em;
+}
+
+a {
+	text-decoration: none;
+}
