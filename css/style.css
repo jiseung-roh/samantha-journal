@@ -65,7 +65,7 @@ body {
 /* MEDIA QUERY */
 @media screen and (max-width: 599px) {
 	body {
-		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background: #fff url(../assets/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
 	.brand {
@@ -87,7 +87,7 @@ body {
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
 	body {
-		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background: #fff url(../assets/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
 	.brand {
@@ -110,7 +110,7 @@ body {
 
 @media screen and (min-width: 770px) and (max-width: 1023px) {
 	body {
-		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background: #fff url(../assets/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
 	.brand {
@@ -133,7 +133,7 @@ body {
 
 @media screen and (min-width: 1024px) {
 	body {
-		background: #fff url(/assets/bg-sf.jpg) no-repeat fixed bottom center; 
+		background: #fff url(../assets/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
 	.brand {
