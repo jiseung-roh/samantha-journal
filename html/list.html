@@ -8,15 +8,28 @@
 	<meta name="description" content="공간431팀의 탐방기">
 	<meta name="author" content="jiseung roh">
 	<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/css/common.css">
-	<link rel="stylesheet" type="text/css" href="/css/grid.css">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/type.css">
-	<link rel="stylesheet" type="text/css" href="/css/status.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/type.css">
+	<link rel="stylesheet" type="text/css" href="../css/status.css">
 	<script src="https://use.typekit.net/nev7rta.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
+	<!-- mobile menu -->
+	<nav id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="../index.html" lang="en">Home</a>
+			<a href="about.html" lang="en">About</a>
+			<a href="list.html" lang="en">Journal</a>
+		</div>
+	</nav>
+		<h2 onclick="openNav()" class="hidden-menu" lang="en">Menu.</h2>
+		<a href="html/about.html" class="menu-button left" lang="en">About</a>
+		<a href="html/list.html" class="menu-button right" lang="en">Journal</a>
+	</nav>
+
 	<!-- page-nav -->
 	<div class="page-nav s-container m-container l-container">
 		<h1><a href="/index.html" lang="en">Sam.</a></h1>
@@ -37,17 +50,18 @@
 			<nav>
 				<!-- <h2 class="hidden">Journal Navigator</h2> -->
 				<ul class="row">
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/facebook.html" lang="en">facebook</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/pinterest.html" lang="en">pinterest</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/adobe.html" lang="en">adobe</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/google.html" lang="en">google</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/twitter.html" lang="en">twitter</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/zynga.html" lang="en">zynga</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/linkedin.html" lang="en">linkedin</a></li>
-					<li><a class="col-s-4-4 col-m-8 col-l-12 animated-fast pulse infinite" href="/html/airbnb.html" lang="en">airbnb</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/facebook.html" lang="en">facebook</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/pinterest.html" lang="en">pinterest</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/adobe.html" lang="en">adobe</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/google.html" lang="en">google</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/twitter.html" lang="en">twitter</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/zynga.html" lang="en">zynga</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/linkedin.html" lang="en">linkedin</a></li>
+					<li><a class="animated-fast pulse infinite" href="/html/airbnb.html" lang="en">airbnb</a></li>
 				</ul>
 			</nav>
 		</section>
 	</div>
 	<!-- // list -->
+	<script src="../js/menu-toggle.js"></script>
 </body>

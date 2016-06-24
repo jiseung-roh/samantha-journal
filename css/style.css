@@ -48,6 +48,7 @@ body {
 	color: #111;
 	display: block; 
 	transition: ease 0.2s;
+	cursor: pointer;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -79,6 +80,9 @@ body {
 		font-size: 1.7rem;
     	font-weight: bold;
     	z-index: 10000;
+	}
+	.hidden-menu:hover {
+    	cursor: pointer;
 	}
 	.menu-button {
 		display: none;
