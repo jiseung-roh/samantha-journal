@@ -1,11 +1,10 @@
 // MENU TOGGLE
-
 function openNav() {
 	document.getElementById("myNav").style.width = "100%";
-	document.getElementByClassName("hidden-menu").style.visibility = "none";
-	}
+	document.getElementById("hidden-menu").style.visibility = "hidden";
+}
 	
-	function closeNav() {
+function closeNav() {
 	document.getElementById("myNav").style.width = "0%";
-	document.getElementByClassName("hidden-menu").style.visibility = "1";
-	}
+	document.getElementById("hidden-menu").style.visibility = "visible";
+}
