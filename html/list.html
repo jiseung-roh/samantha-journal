@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/type.css">
 	<link rel="stylesheet" type="text/css" href="../css/status.css">
+	<link rel="stylesheet" type="text/css" href="../css/list-page.css">
 	<script src="https://use.typekit.net/nev7rta.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
@@ -25,43 +26,33 @@
 			<a href="list.html" lang="en">Journal</a>
 		</div>
 	</nav>
-		<h2 onclick="openNav()" class="hidden-menu" lang="en">Menu.</h2>
-		<a href="html/about.html" class="menu-button left" lang="en">About</a>
-		<a href="html/list.html" class="menu-button right" lang="en">Journal</a>
-	</nav>
+		<h2 onclick="openNav()" id="hidden-menu" lang="en">Menu.</h2>
 
 	<!-- page-nav -->
-	<div class="page-nav s-container m-container l-container">
-		<h1><a href="/index.html" lang="en">Sam.</a></h1>
+	<div class="page-nav">
+		<h1><a href="../index.html" class="side-brand" lang="en">Sam.</a></h1>
 		<nav class="gnb">
-			<a href="/html/about.html" class="left" lang="en">About</a>
+			<a href="about.html" class="menu-button left" lang="en">About</a>
 		</nav>
 	</div>
 	<!-- // page-nav -->
 
 	<!-- list -->
-	<div class="s-container m-container l-container">
-		<section class="journal-list">
-			<div class="row">
-				<header class="col-s-4-4 col-m-8 col-l-12">
-					<h2 lang="en">Journal</h2>
-				</header>
-			</div>
-			<nav>
-				<!-- <h2 class="hidden">Journal Navigator</h2> -->
-				<ul class="row">
-					<li><a class="animated-fast pulse infinite" href="/html/facebook.html" lang="en">facebook</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/pinterest.html" lang="en">pinterest</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/adobe.html" lang="en">adobe</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/google.html" lang="en">google</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/twitter.html" lang="en">twitter</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/zynga.html" lang="en">zynga</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/linkedin.html" lang="en">linkedin</a></li>
-					<li><a class="animated-fast pulse infinite" href="/html/airbnb.html" lang="en">airbnb</a></li>
-				</ul>
-			</nav>
-		</section>
+	<nav class="journal-list">
+	<header>
+		<h2 lang="en" class="nav-header">Journal</h2>
+	</header>
+	<div class="animated-fast infinite pulse">
+		<a class="list" href="../html/facebook.html" lang="en">facebook</a>
+		<a class="list" href="../html/pinterest.html" lang="en">pinterest</a>
+		<a class="list" href="../html/adobe.html" lang="en">adobe</a>
+		<a class="list" href="../html/google.html" lang="en">google</a>
+		<a class="list" href="../html/twitter.html" lang="en">twitter</a>
+		<a class="list" href="../html/zynga.html" lang="en">zynga</a>
+		<a class="list" href="../html/linkedin.html" lang="en">linkedin</a>
+		<a class="list" href="../html/airbnb.html" lang="en">airbnb</a>
 	</div>
+	</nav>
 	<!-- // list -->
 	<script src="../js/menu-toggle.js"></script>
 </body>
