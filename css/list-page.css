@@ -1,0 +1,109 @@
+.list {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	font-weight: 700;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+.journal-list header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.list:nth-child(1) {
+	background: url(../asset/facebook-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(2) {
+	background: url(../asset/pin-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(3) {
+	background: url(../asset/adobe-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(4) {
+	background: url(../asset/google-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(5) {
+	background: url(../asset/twitter-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(6) {
+	background: url(../asset/zynga-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(7) {
+	background: url(../asset/linkedin-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+.list:nth-child(8) {
+	background: url(../asset/airbnb-hd.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+
+@media screen and (max-width: 799px) {
+	.list {
+		position: relative;
+		width: 100vw;
+		height: 30vh;
+		font-size: 3.38rem;
+	}
+	.list::before {
+		position: absolute;
+		z-index: 100;
+		width: 100%;
+		height: 100%;
+		background-color: rgb(255,255,255,0.8);
+		color: #222;
+	}
+	.nav-header {
+		font-size: 5rem;
+	}
+	.side-brand {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+	.list {
+		width: 70vw;
+		height: 45vh;
+		font-size: 5.63rem;
+		margin-bottom: 1.5rem;
+		color: #fff;
+	}
+	.nav-header {
+		font-size: 10rem;
+	}
+	.side-brand {
+		position: fixed;
+		top: 3%;
+		left: 3%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.list {
+		width: 65vw;
+		height: 50vh;
+		font-size: 7.88rem;
+		margin-bottom: 2rem;
+		color: #fff;
+	}
+	.nav-header {
+		font-size: 15rem;
+	}
+	.side-brand {
+		position: fixed;
+		top: 3%;
+		left: 3%;
+	}
+}
