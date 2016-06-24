@@ -13,6 +13,7 @@ body {
 /* index.html */
 
 .brand {
+	color: #fff;
 	display: flex;
 	align-items: center;
     justify-content: center;
@@ -22,46 +23,11 @@ body {
 	height: 100vh;
 }
 
-.overlay {
-	height: 100%;
-	width: 0;
+.side-brand {
 	position: fixed;
-	z-index: 1;
-	left: 0;
-	top: 0;
-	background-color: rgb(255,255,255);
-	overflow-x: hidden;
-	transition: 0.5s;
-}
-
-.overlay-content {
-	position: relative;
-	top: 33%;
-	width: 100%; 
-	text-align: center; 
-}
-
-.overlay a {
-	padding: 8px;
-	text-decoration: none;
-	font-size: 3rem;
-	color: #111;
-	display: block; 
-	transition: ease 0.2s;
-	cursor: pointer;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #e1e1e1;
-}
-
-.close-btn {
-    position: absolute;
-    top: 2rem;
-    right: 5%;
-    font-size: 3.75rem !important;
-}
-
+	top: 3%;
+	left: 3%;
+	}
 
 /* MEDIA QUERY */
 @media screen and (max-width: 599px) {
@@ -72,7 +38,7 @@ body {
 	.brand {
 		visibility: hidden;
 	}
-	.hidden-menu {
+	#hidden-menu {
 		position: fixed;
 		top: 2rem;
 		left: 5%;
@@ -81,7 +47,7 @@ body {
     	font-weight: bold;
     	z-index: 10000;
 	}
-	.hidden-menu:hover {
+	#hidden-menu:hover {
     	cursor: pointer;
 	}
 	.menu-button {
@@ -97,7 +63,10 @@ body {
 	.brand {
 		font-size: 5rem;
 	}
-	.hidden-menu {
+	#myNav {
+		display: none;
+	}
+	#hidden-menu {
 		display: none;
 	}
 	.menu-button {
@@ -120,7 +89,10 @@ body {
 	.brand {
 		font-size: 9rem;
 	}
-	.hidden-menu {
+	#myNav {
+		display: none;
+	}
+	#hidden-menu {
 		display: none;
 	}
 	.menu-button {
@@ -143,7 +115,10 @@ body {
 	.brand {
 		font-size: 10rem;
 	}
-	.hidden-menu {
+	#myNav {
+		display: none;
+	}
+	#hidden-menu {
 		display: none;
 	}
 	.menu-button {
