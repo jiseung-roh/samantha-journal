@@ -13,6 +13,10 @@
 	background-size: cover;
 }
 
+.image {
+	width: 100%;
+}
+
 .qna * {
 	margin-top: 1.5rem;
 	font-family: 'Noto Sans KR', sans-serif;
