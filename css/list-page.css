@@ -12,6 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+	color: #fff;
 }
 
 .list:nth-child(1) {
@@ -47,6 +48,10 @@
 	background-size: cover;
 }
 
+.side-brand {
+	text-decoration: none;
+	color: #fff;
+}
 
 
 @media screen and (max-width: 799px) {
@@ -70,6 +75,10 @@
 	.side-brand {
 		display: none;
 	}
+	main.article {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (min-width: 800px) and (max-width: 1023px) {
@@ -88,6 +97,10 @@
 		top: 3%;
 		left: 3%;
 	}
+	main.article {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (min-width: 1024px) {
@@ -105,5 +118,9 @@
 		position: fixed;
 		top: 3%;
 		left: 3%;
+	}
+	main.article {
+		width: 70%;
+		margin: 0 auto;
 	}
 }

@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.overview {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.overview.adobe {
+	background: url(../asset/adobe-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
+.qna * {
+	margin-top: 1.5rem;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+}
+
+.qna .question {
+	font-weight: 600;
+}
+
+.qna {
+	margin-top: 3rem;
+}
+
+@media screen and (max-width: 799px) {
+	.company {
+		font-size: 5rem;
+	}
+	main.article {
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+	.list {
+		width: 70vw;
+		height: 45vh;
+		font-size: 5.63rem;
+		margin-bottom: 1.5rem;
+		color: #fff;
+	}
+	.company {
+		font-size: 10rem;
+	}
+	main.article {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.list {
+		width: 65vw;
+		height: 50vh;
+		font-size: 7.88rem;
+		margin-bottom: 2rem;
+		color: #fff;
+	}
+	.company {
+		font-size: 15rem;
+	}
+	main.article {
+		width: 60%;
+		margin: 0 auto;
+	}
+}

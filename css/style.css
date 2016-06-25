@@ -25,7 +25,7 @@ body {
 
 /* MEDIA QUERY */
 @media screen and (max-width: 599px) {
-	body {
+	body.index-page {
 		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
@@ -44,13 +44,16 @@ body {
 	#hidden-menu:hover {
     	cursor: pointer;
 	}
+	#article #hidden-menu {
+		color: #fff;
+	}
 	.menu-button {
 		display: none;
 	}
 }
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
-	body {
+	body.index-page {
 		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
@@ -76,7 +79,7 @@ body {
 }
 
 @media screen and (min-width: 770px) and (max-width: 1023px) {
-	body {
+	body.index-page {
 		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
@@ -102,7 +105,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-	body {
+	body.index-page {
 		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
 		background-size: cover;
 	}
