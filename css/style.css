@@ -43,12 +43,13 @@ img {
 	height: 100vh;
 }
 
+.background {
+	background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
+	background-size: cover;
+}
+
 /* MEDIA QUERY */
-@media screen and (max-width: 599px) {
-	body.index-page {
-		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
-		background-size: cover;
-	}
+@media screen and (max-width: 799px) {
 	.brand {
 		visibility: hidden;
 	}
@@ -72,39 +73,9 @@ img {
 	}
 }
 
-@media screen and (min-width: 600px) and (max-width: 769px) {
-	body.index-page {
-		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
-		background-size: cover;
-	}
+@media screen and (min-width: 800px) and (max-width: 1023px) {
 	.brand {
-		font-size: 5rem;
-	}
-	#myNav {
-		display: none;
-	}
-	#hidden-menu {
-		display: none;
-	}
-	.menu-button {
-		position: fixed;
-		top: 50%
-	}
-	.menu-button.left {
-		left: 3%
-	}
-	.menu-button.right {
-		right: 3%;
-	}
-}
-
-@media screen and (min-width: 770px) and (max-width: 1023px) {
-	body.index-page {
-		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
-		background-size: cover;
-	}
-	.brand {
-		font-size: 9rem;
+		font-size: 10rem;
 	}
 	#myNav {
 		display: none;
@@ -125,12 +96,8 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-	body.index-page {
-		background: #fff url(../asset/bg-sf.jpg) no-repeat fixed bottom center; 
-		background-size: cover;
-	}
 	.brand {
-		font-size: 10rem;
+		font-size: 15rem;
 	}
 	#myNav {
 		display: none;

@@ -8,10 +8,36 @@
 	height: 100vh;
 }
 
+.overview.pinterest {
+	background: url(../asset/pin-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
 .overview.adobe {
 	background: url(../asset/adobe-hd.jpg) no-repeat fixed center center;
 	background-size: cover;
 }
+
+.overview.google {
+	background: url(../asset/google-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
+.overview.twitter {
+	background: url(../asset/twitter-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
+.overview.zynga {
+	background: url(../asset/zynga-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
+.overview.airbnb {
+	background: url(../asset/airbnb-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
 
 .image {
 	width: 100%;

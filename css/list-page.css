@@ -1,10 +1,11 @@
 .list {
 	display: flex;
 	align-items: center;
-    justify-content: center;
+	justify-content: center;
 	font-weight: 700;
 	margin: 0 auto;
 	text-decoration: none;
+	color: #fff;
 }
 
 .journal-list header {
@@ -14,6 +15,7 @@
 	height: 100vh;
 	color: #fff;
 }
+
 
 .list:nth-child(1) {
 	background: url(../asset/facebook-hd.jpg) no-repeat center center;
