@@ -5,21 +5,64 @@
 	<meta charset="UTF-8">
 	<title>About | Samantha's Journal</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="공간431팀과 사만따(Samantha) 소개">
+	<meta name="description" content="공간431팀의 탐방기">
 	<meta name="author" content="jiseung roh">
-	<link rel="stylesheet" type="text/css" href="../css/setting-mobile.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/type.css">
 	<link rel="stylesheet" type="text/css" href="../css/state.css">
 	<link rel="stylesheet" type="text/css" href="../css/list-page.css">
+	<link rel="stylesheet" type="text/css" href="../css/about-page.css">
+	<link rel="stylesheet" type="text/css" href="../css/article.css">
 	<script src="https://use.typekit.net/nev7rta.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body class="background">
+	<!-- mobile menu -->
+	<nav id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="../index.html" lang="en">Home</a>
+			<a href="about.html" lang="en">About</a>
+			<a href="list.html" lang="en">Journal</a>
+		</div>
+	</nav>
+		<h2 onclick="openNav()" id="hidden-menu" lang="en">Menu.</h2>
+
+	<!-- page-nav -->
 	<div class="page-nav">
-		<h1><a href="../index.html" lang="en">Sam</a></h1>
+		<h1><a href="../index.html" class="side-brand" lang="en">Sam.</a></h1>
 		<nav class="gnb">
-			<a href="list.html" class="right" lang="en">View the Journal</a>
+			<a href="list.html" class="menu-button right" lang="en">Journal</a>
 		</nav>
 	</div>
+	<!-- // page-nav -->
+
+ 	<main class="about">
+ 		<header>
+			<h2 lang="en" class="nav-header animated jello">About</h2>
+		</header>
+ 		<div class="about-main">
+ 			<section class="intro-431">
+ 				<div class="text-box">
+ 					<img src="../asset/43.jpg" class="image rwd-image img-flex">
+ 					<h3>함께라서 좋은 사람들,<br>공간431</h3>
+ 					<p>
+ 						&lt;공간 431&gt;은 서강대학교 Art &amp; Technology 학과 2,3 학년 학생 네 명으로 이루어진 프로젝트 팀입니다. 사람을 중심에 두는 서비스를 만들겠다는 열정으로 뭉쳐, 많은 밤을 지새우며 함께 고민했습니다. 그 결과, Samantha 라는 모바일 서비스를 기획해 내었고, 이 아이디어로 ‘2015 Imagination Startup Idea Contest’ 에서 치열한 경쟁 속에 당당히 우승을 차지하였습니다.
+ 					</p>
+ 					<p>
+ 						Samantha 서비스를 사업화 하기 위한 첫 걸음으로, &lt;공간 431&gt; 팀은 지난 12월부터 1월까지 미국 실리콘밸리를 탐방하였습니다. 이 웹사이트는 조그만 스타트업에서 시작하여 거대 유니콘으로 성장한 실리콘밸리의 기업들을 방문하고, 그 속에서 보고 들은 이야기를 진솔하게 담고 있습니다.
+ 					</p>
+ 				</div>
+ 			  		</section>
+ 					<section class="intro-samantha">
+ 						<h3>Who is Samantha?</h3>
+ 						<p>
+ 							한국은 방문하는 관광객들은 증가하는 추세인 반면, 그들의 한국에서의 경험은 충분히 만족스럽지 않아 한국 재방문율은 여타 다른 국가들에 비해 현저히 낮은 편입니다. 그들이 한국을 제대로 즐기도록 도와주기 위해 탄생한 것이 바로 Samantha입니다. Samantha는 한국 문화와 한류에 대해 알려주는 매거진 서비스, 그리고 궁금한 점을 즉각 해결해주는 1:1 대응 답변 서비스로 이루어져 있습니다. 한국을 방문하는 외국인들에게 한국에 대해 그들의 언어로 알기 쉽게 알려주고, 또 궁금한 점을 바로바로 해결해 주는, 그야말로 한국 경험의 All-in-One Kit라고 할 수 있습니다.
+ 						</p>
+ 						<iframe class="video" src="https://player.vimeo.com/video/143585901" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ 					</section>
+ 		</div>
+ 	</main>
+	<script src="../js/menu-toggle.js"></script>
 </body>
