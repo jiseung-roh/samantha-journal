@@ -10,6 +10,26 @@ body {
 	min-height: 100vh;
 }
 
+/* settings-image */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.rwd-image, .img-flex {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-replacement, .ir {
+  overflow: hidden;
+  direction: ltr;
+  text-align: left;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
 /* index.html */
 
 .brand {
