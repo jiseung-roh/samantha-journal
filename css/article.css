@@ -33,6 +33,11 @@
 	background-size: cover;
 }
 
+.overview.linkedin {
+	background: url(../asset/linkedin-hd.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
+
 .overview.airbnb {
 	background: url(../asset/airbnb-hd.jpg) no-repeat fixed center center;
 	background-size: cover;

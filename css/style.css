@@ -85,13 +85,15 @@ img {
 	}
 	.menu-button {
 		position: fixed;
-		top: 50%
+		top: 50%;
 	}
 	.menu-button.left {
-		left: 3%
+		left: 3%;
+		font-size: 1.2em;
 	}
 	.menu-button.right {
 		right: 3%;
+		font-size: 1.2em;
 	}
 }
 
@@ -107,12 +109,14 @@ img {
 	}
 	.menu-button {
 		position: fixed;
-		top: 50%
+		top: 50%;
 	}
 	.menu-button.left {
-		left: 3%
+		left: 3%;
+		font-size: 1.2em;
 	}
 	.menu-button.right {
 		right: 3%;
+		font-size: 1.2em;
 	}
 }

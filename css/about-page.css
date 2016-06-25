@@ -1,0 +1,93 @@
+.about .intro-431, .about .intro-samantha {
+	margin: 0 auto;
+}
+
+.about-main p {
+	font-weight: 300;
+	line-height: 1.5;
+	margin-top: 1.5rem;
+}
+
+.about-main {
+	padding-bottom: 2rem;
+	margin: 2rem;
+}
+
+.video {
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 799px) {
+	.about-main {
+		width: 100vw;
+		background-color: #fff;
+	}
+	.intro-431, .intro-samantha {
+		width: 85%;
+	}
+	.nav-header {
+		font-size: 5rem;
+	}
+	.side-brand {
+		display: none;
+	}
+	main.article {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+	.about-main {
+		width: 80vw;
+		margin-bottom: 1.5rem;
+		background-color: #fff;
+		margin: 0 auto;
+	}
+	.intro-431, .intro-samantha {
+		width: 80%;
+	}
+	.nav-header {
+		font-size: 10rem;
+	}
+	.side-brand {
+		position: fixed;
+		top: 3%;
+		left: 3%;
+	}
+	main.article {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.about-main {
+		width: 70vw;
+		margin-bottom: 2rem;
+		background-color: #fff;
+		margin: 0 auto;
+	}
+	.intro-431, .intro-samantha {
+		width: 85%;
+	}
+	.text-box {
+		padding: 2rem 0 2rem;
+	}
+	.intro-431 h3, .intro-samantha h3 {
+		padding-top: 2rem;
+		font-size: 4rem;
+	}
+	.nav-header {
+		font-size: 15rem;
+	}
+	.side-brand {
+		position: fixed;
+		top: 3%;
+		left: 3%;
+	}
+	main.article {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
