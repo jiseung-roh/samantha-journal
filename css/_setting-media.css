@@ -22,12 +22,12 @@
 }
 
 /* 1:1 정사각형(Square) */
-.embed-1by1,embed--1by1 {
+.embed-1by1,.embed--1by1 {
   padding-top: 100%;
 }
 
 /* 4:3 오래된 TV, 컴퓨터 스크린(Traditional TV/computer screens) */
-.embed-4by3,embed--4by3 {
+.embed-4by3,.embed--4by3 {
   padding-top: 75%;
 }
 
